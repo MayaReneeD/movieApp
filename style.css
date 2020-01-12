@@ -1,3 +1,8 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
 
 .form-group {
    margin-bottom: 1rem; 
@@ -34,6 +39,11 @@
 
 #movie-searchable {
     margin-top: 20px; 
+    margin-bottom: 50px; 
+}
+
+.movie {
+    margin-bottom: 50px; 
 }
 
 section {
@@ -53,9 +63,22 @@ img:hover {
 }
 
 .content {
-    border: 1px solid red;
-    height: 300px; 
+    border: 1px solid lightgrey; 
+    padding: 20px;
     display: none;
+}
+
+#content-close {
+    cursor: pointer; 
+    font-weight: bold; 
+}
+
+.content div {
+    display: flex;
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+    align-items: center; 
+    margin: 10px; 
 }
 
 .content-display {
